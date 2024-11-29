@@ -1,0 +1,50 @@
+/* تنسيق الهيدر */
+.header {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* لتثبيت الشريط في المقدمة */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف للشريط العلوي */
+  }
+  
+  /* تنسيق شريط الأدوات */
+  .navbar {
+    display: flex;
+    justify-content: center;  /* ترتيب العناصر بشكل أفقي */
+    align-items: center;  /* محاذاة العناصر عموديًا */
+    padding: 10px;
+  }
+  
+  /* تنسيق اللوجو */
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;  /* المسافة بين اللوجو والقائمة */
+    vertical-align: middle;  /* محاذاة اللوجو مع باقي العناصر */
+  }
+  
+  /* تنسيق الروابط في شريط الأدوات */
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links li a:hover {
+    color: #f39c12; /* تغيير اللون عند التمرير */
+  }
+  

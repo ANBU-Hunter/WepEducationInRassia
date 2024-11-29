@@ -1,0 +1,41 @@
+{
+  "homepage":"https://anbu-hunter.github.io/WepEducationInRassia",
+  "name": "student-services-site",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "i18n": "^0.15.1",
+    "install": "^0.13.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1"
+  },
+  "description": "This project is a React-based website offering student services like translation, education guidance, jobs, and tourism assistance.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

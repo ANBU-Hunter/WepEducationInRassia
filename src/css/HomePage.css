@@ -1,0 +1,51 @@
+/* HomePage.css */
+
+/* تنسيق العنوان */
+h1 {
+    font-size: 2rem;
+    color: #00f36d;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* تنسيق النص */
+  p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  /* تنسيق القائمة */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline;
+    margin: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2f286d;
+  }
+  
+  a:hover {
+    color: #ff5100;
+  }
+  /* تنسيق شريط الأدوات */
+nav {
+    background-color: #000000;  /* تغيير الخلفية */
+    padding: 10px;           /* إضافة حشوة حول المحتوى */
+    text-align: center;      /* محاذاة النص في الوسط */
+    position: relative;
+  }
+  
+  /* إضافة الخط تحت شريط الأدوات */
+  nav {
+    border-bottom: 3px solid #0071bd;  /* الخط تحت الشريط بلون أزرق */
+  }
+  
